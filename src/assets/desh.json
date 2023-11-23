@@ -1,0 +1,42 @@
+[
+  {
+    "countryCode": "AD",
+    "countryName": "Andorra",
+    "currencyCode": "EUR",
+    "population": "84000",
+    "capital": "Andorra la Vella",
+    "continentName": "Europe"
+  },
+  {
+    "countryCode": "AE",
+    "countryName": "United Arab Emirates",
+    "currencyCode": "AED",
+    "population": "4975593",
+    "capital": "Abu Dhabi",
+    "continentName": "Asia"
+  },
+  {
+    "countryCode": "AF",
+    "countryName": "Afghanistan",
+    "currencyCode": "AFN",
+    "population": "29121286",
+    "capital": "Kabul",
+    "continentName": "Asia"
+  },
+  {
+    "countryCode": "AG",
+    "countryName": "Antigua and Barbuda",
+    "currencyCode": "XCD",
+    "population": "86754",
+    "capital": "St. John's",
+    "continentName": "North America"
+  },
+  {
+    "countryCode": "AI",
+    "countryName": "Anguilla",
+    "currencyCode": "XCD",
+    "population": "13254",
+    "capital": "The Valley",
+    "continentName": "North America"
+  }
+]

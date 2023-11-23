@@ -1,0 +1,36 @@
+<h1>Calculation For Convert Money</h1>
+<main>
+  <h2>
+    Please Give Your Input in "Enter Amount" Filled, Anywhere the Table to See Currecy Converted to Banglasedhi Taka
+  </h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Serial No</th>
+        <th>Country Name</th>
+        <th>Country Code</th>
+        <th>Currency Code</th>
+        <th>Population</th>
+        <th>Capital</th>
+        <th>Continent Name</th>
+        <th>BDT Rate</th>
+        <th>Enter Amount</th>
+        <th style="background-color: aqua">Final Converted Amound</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let value of data; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ value.countryName }}</td>
+        <td>{{ value.countryCode }}</td>
+        <td>{{ value.currencyCode }}</td>
+        <td>{{ value.population }}</td>
+        <td>{{ value.capital }}</td>
+        <td>{{ value.continentName }}</td>
+        <td>{{ value.BDT }}</td>
+        <td><input type="number" [(ngModel)]="value1" /></td>
+        <td style="background-color: aqua">{{ value.BDT * value1 }}</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
