@@ -14,7 +14,7 @@
         <th>Capital</th>
         <th>Continent Name</th>
         <th>BDT Rate</th>
-        <th>Enter Amount</th>
+        <th style="background-color: rgb(255, 0, 0)">Enter Amount</th>
         <th style="background-color: aqua">Final Converted Amound</th>
       </tr>
     </thead>
@@ -28,8 +28,8 @@
         <td>{{ value.capital }}</td>
         <td>{{ value.continentName }}</td>
         <td>{{ value.BDT }}</td>
-        <td><input type="number" [(ngModel)]="value1" /></td>
-        <td style="background-color: aqua">{{ value.BDT * value1 }}</td>
+        <td style="background-color: rgb(180, 36, 36)"><input type="number" [(ngModel)]="value1" /></td>
+        <td style="background-color: rgb(89, 237, 237)">{{ value.BDT * value1 }}</td>
       </tr>
     </tbody>
   </table>
